@@ -1,0 +1,59 @@
+http 80
+tcp/ip 3360
+ftp 21 for command port and 20 data port
+tftp 69
+telnet 23
+udp
+pop3 110
+smtp 587
+
+FTP is a connection oriented and TFTP is connectionless service
+FTP uses TCP port while TFTP uses UDP port
+FTP works on two ports 21 and 20 while TFTP works on one port i.e. 69
+
+TCP is connection oriented while UDP is connectionless service
+Connection oriented means the communicating devices should establish a communicati0n  before transmitting the data
+TCP is slower that UDP while UDP is fast simple and more efficient to use
+TCP example:- FTP, SSH, and Telnet
+UDP example:- online games, video conferencing, 
+Types of network: LAN, MAN, WAN
+Wired and Wireless network: wired network means, wires are used to connect the devices such as PCs or laptops to internet or various other networks.
+                                                    wireless means without wire, media that is made up of elctro magnetic waves. Anteenas or sensors will be present on all wirelss devices.
+
+Encryption(Cipher Text) is the process of converting the readable msg into unreadable msgs to prevent form unauthorized person from reading it.
+Decryption(Plain Text) means converting the encrypted msg back to its original format.
+
+In connection-oriented service, Handshake method is used to establish the connection between sender and receiver. Connection-less service is related to the postal system.
+It does not include any connection establishment and connection termination.
+
+Symmetrical connection provides equal download and upload speeds.
+An asymmetrical connection, however, does NOT have equal download/upload speeds.
+
+The main objective of router is to connect various networks simultaneously.
+While the main objective of switch is to connect various devices simultaneously.
+Router works in network layer, while switch it works in data link layer.
+
+DES(data encryption standard) is a symmetric key algorithm, which uses the same key for encrypting and decrypting process.
+RSA is an asymmetric algorithm used for services such as digital signatures, key excahnges and for encryption purposes.
+Diffie Hellman algorithm is a method of securely exchanging the cyptographic keys.
+
+Cyber security can e used to protect the systems, networks, programs, devices and data from cyber attacks.
+Cyber Security is a broad term while network security is a subset of cyber security. Cybersecurity protects all the digital data against cyber attacks.
+Network security offers limited protection and safeguards the network and transmit data only
+CN includes viruses and worms whereas security includes phishing and texting.
+
+L1-physical-TCP/UDP
+L2-data link-IPV5,IPV6
+L3-network-ATM,Fibre Cable, 
+L4-transport-ISDN
+
+OSPF (Open Shortest Path First) is a router protocol used to find the best path for packets as they pass through a set of connected networks.
+IP address is of 32 bits.
+Encryption uses 54 bits
+Two types of keys private and public. In private only one key is used for both encryption and decryption while in publich two keys are used
+one for encryption and other for decryption.
+
+Computer networking refers to interconnected computing devices that can exchange data and share resources with each other.
+OR
+computer network, two or more computers that are connected with one another for the purpose of communicating data electronically.
+
